@@ -1,0 +1,27 @@
+# Core dependencies
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+pydantic==2.6.1
+pydantic-settings==2.1.0
+
+# Database
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib==1.7.4
+bcrypt==4.0.1
+pyjwt==2.8.0
+
+# Redis (optional, for caching/sessions)
+redis==5.0.1
+
+# HTTP client
+httpx==0.26.0
+
+# Utilities
+python-multipart==0.0.9
+python-dotenv==1.0.1
+email-validator==2.1.0.post1
